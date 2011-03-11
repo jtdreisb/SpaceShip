@@ -16,8 +16,7 @@
 	GLfloat *color;
 }
 
-
+@property BOOL moving;
 - (void)render;
 
-- (void)setMoving:(BOOL)yesno;
 @end

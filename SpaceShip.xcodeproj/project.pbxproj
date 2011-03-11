@@ -13,6 +13,7 @@
 		3310496F131C4D5D008DF7A9 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3310496E131C4D5D008DF7A9 /* OpenGL.framework */; };
 		33104A18131C4FB5008DF7A9 /* GLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33104A17131C4FB5008DF7A9 /* GLView.m */; };
 		33623BFF1325843200F8F565 /* ShipModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 33623BFE1325843200F8F565 /* ShipModel.m */; };
+		336BD959132ACF16000F33C9 /* Bullet.m in Sources */ = {isa = PBXBuildFile; fileRef = 336BD958132ACF16000F33C9 /* Bullet.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -35,6 +36,8 @@
 		33104A17131C4FB5008DF7A9 /* GLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLView.m; sourceTree = "<group>"; };
 		33623BFD1325843200F8F565 /* ShipModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShipModel.h; sourceTree = "<group>"; };
 		33623BFE1325843200F8F565 /* ShipModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShipModel.m; sourceTree = "<group>"; };
+		336BD957132ACF16000F33C9 /* Bullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bullet.h; sourceTree = "<group>"; };
+		336BD958132ACF16000F33C9 /* Bullet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bullet.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* SpaceShip-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SpaceShip-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* SpaceShip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceShip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -58,6 +61,8 @@
 			children = (
 				33623BFD1325843200F8F565 /* ShipModel.h */,
 				33623BFE1325843200F8F565 /* ShipModel.m */,
+				336BD957132ACF16000F33C9 /* Bullet.h */,
+				336BD958132ACF16000F33C9 /* Bullet.m */,
 				33104A16131C4FB5008DF7A9 /* GLView.h */,
 				33104A17131C4FB5008DF7A9 /* GLView.m */,
 				256AC3D80F4B6AC300CF3369 /* SpaceShipAppDelegate.h */,
@@ -200,6 +205,7 @@
 				256AC3DA0F4B6AC300CF3369 /* SpaceShipAppDelegate.m in Sources */,
 				33104A18131C4FB5008DF7A9 /* GLView.m in Sources */,
 				33623BFF1325843200F8F565 /* ShipModel.m in Sources */,
+				336BD959132ACF16000F33C9 /* Bullet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,6 +10,7 @@
 
 
 @implementation ShipModel
+@synthesize moving;
 // use glVertex2fv to draw triangle strip
 /*GLfloat verts[] = {
 	0.0,0.0,
@@ -23,7 +24,7 @@
 
 
 - (id)init {
-	if (self = [super init]) {
+	if ((self = [super init])) {
 		y = x = 0;
 		theta = 0;
 		color = malloc(sizeof(GLfloat) * 3);
@@ -42,11 +43,11 @@
 	
 	if (moving) {
 		NSLog(@"%f",y);
-		y != 1;
+		y += 1;
 	}
 	
 	glRotatef(-theta, 0, 0, 1);
-	glTranslatef(-x, 90, 0);
+	glTranslatef(10, y, 0);
 	
 	/*
 	glBegin(GL_QUADS);
@@ -80,7 +81,5 @@
 	[super dealloc];
 	free(color);
 }
-- (void)setMoving:(BOOL)yesno {
-	moving = yesno;
-}
+
 @end
